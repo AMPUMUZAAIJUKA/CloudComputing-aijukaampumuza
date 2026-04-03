@@ -32,7 +32,7 @@ def init_db():
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Railway PaaS App is running!", "status": "ok"})
+    return jsonify({"message": "Railway PaaS App v2 is running!", "status": "ok"})
 
 @app.route('/students', methods=['POST'])
 def add_student():
